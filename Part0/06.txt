@@ -1,0 +1,9 @@
+browser->server: User interacts with SPA interface
+note over browser:
+  User enters text for a new note and clicks "Save" button
+end note
+browser->server: JavaScript in SPA sends a POST request to server
+server-->browser: New note created successfully
+note over browser:
+  SPA updates the UI to display the new note
+end note

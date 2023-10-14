@@ -1,0 +1,11 @@
+browser->server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/notes
+server-->browser: HTML-page
+browser->server: User enters text and clicks "Save" button
+note over browser:
+  Browser collects user input and prepares to send a POST request
+end note
+browser->server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/notes
+server-->browser: New note is created successfully
+note over browser:
+  Browser receives confirmation from the server
+end note

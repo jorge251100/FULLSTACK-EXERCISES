@@ -1,0 +1,5 @@
+browser->server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/spa
+server-->browser: HTML-code for the SPA
+note over browser:
+  Browser loads the SPA and its assets
+end note
